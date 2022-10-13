@@ -85,18 +85,18 @@ first_name_pm = ""
 
 PM_START_TEXT = """
 ───『 {} 』───
-Hey there *✮ {} ✮*,
+Hᴇʏ Tʜᴇʀᴇ *✮ {} ✮*,
 
-*Watashi No Namae Wa* "`Destiny (運命)`"*, A Musicart named after Beethoven's Symphony No*[.](https://telegra.ph/file/3cfeb559dc1ec093d21d8.mp4)*5 in C Minor Op.67*
+*Mʏ Nᴀᴍᴇ ɪs* "`Rᴀɪᴅᴇᴍ Sʜᴏɢᴜɴ`"*, A Gᴏᴅ Oғ Eᴛᴇʀɴɪᴛʏ*[.](https://telegra.ph/file/88e1be4c7c5f1e19a63d8.mp4)*Fʀᴏᴍ Gᴇɴsʜɪɴ Iᴍᴘᴀᴄᴛ*
 
 ➳➳➳➳➳➳➳➳➳➳➳➳➳➳➳
-ღღ   *Uptime*: 『 `{}` 』   ღღ
+   *Uᴘᴛɪᴍᴇ*: 『 `{}` 』   
 ➳➳➳➳➳➳➳➳➳➳➳➳➳➳➳
 
-✧ *Users Interacted*: 『 `{}` 』
-✧ *Total Chats*: 『 `{}` 』
+✧ *Usᴇʀs Iɴᴛᴇʀᴀᴄᴛᴇᴅ*: 『 `{}` 』
+✧ *Tᴏᴛᴀʟ Cʜᴀᴛs*: 『 `{}` 』
 
-♡ Try The Help Button below To Know My Abilities, or simply do /help 🙂. ♡
+ Tʀʏ Tʜᴇ Hᴇʟᴘ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ Tᴏ Kɴᴏᴡ Mʏ Aʙɪʟɪᴛɪᴇs, Oʀ sɪᴍᴘʟʏ Dᴏ /help. 
 """
 
 GROUP_START_MSG = "👋 Hi {}\nI won't sleep yet, because I believe someone is waiting for my Music.\n\nUptime - {}"
