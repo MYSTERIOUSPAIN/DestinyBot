@@ -498,8 +498,8 @@ def unmei_about_callback(update, context):
                     InlineKeyboardButton(text="Obito", url="https://github.com/MYSTERIOUSPAIN"),
                  ],
                  [
-                    InlineKeyboardButton(text="sena-ex", url=""),
-                    InlineKeyboardButton(text="TheHamkerCat", url="),
+                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
+                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="unmei_"),
