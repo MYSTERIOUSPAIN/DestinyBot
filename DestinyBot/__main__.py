@@ -99,54 +99,53 @@ Hᴇʏ Tʜᴇʀᴇ *✮ {} ✮*,
  Tʀʏ Tʜᴇ Hᴇʟᴘ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ Tᴏ Kɴᴏᴡ Mʏ Aʙɪʟɪᴛɪᴇs, Oʀ sɪᴍᴘʟʏ Dᴏ /help. 
 """
 
-GROUP_START_MSG = "👋 Hi {}\nI won't sleep yet, because I believe someone is waiting for my Music.\n\nUptime - {}"
+GROUP_START_MSG = "👋 Hɪ {}\nI Wᴏɴ'ᴛ Sʟᴇᴇᴘ Yᴇᴛ, Bᴇᴄᴀᴜsᴇ I Bᴇʟɪᴇᴠᴇ Sᴏᴍᴇᴏɴᴇ Is Wᴀɪᴛɪɴɢ Fᴏʀ Mʏ Sᴡᴏʀᴅ.\n\nUᴘᴛɪᴍᴇ - {}"
 
-START_IMG = "https://telegra.ph/file/3cfeb559dc1ec093d21d8.mp4"
+START_IMG = "https://telegra.ph/file/8af4ea0ed6cef5a31382d.mp4"
 
 HELP_STRINGS = """
-Hello there, I'm Unmei (Destiny), A powerful group management bot.
-To make me functional, make sure that I have enough rights in your group[.](https://telegra.ph/file/26c430892d2ce0e407443.jpg)
-Helpful commands:
+Hᴇʟʟᴏ Tʜᴇʀᴇ, I'ᴍ Rᴀɪᴅᴇɴ (Bᴀᴀʟ), A Pᴏᴡᴇʀғᴜʟ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.
+To Mᴀᴋᴇ Mᴇ Fᴜɴᴄᴛɪᴏɴᴀʟ, Mᴀᴋᴇ Sᴜʀᴇ Tʜᴀᴛ I Hᴀᴠᴇ Eɴᴏᴜɢʜ Rɪɢʜᴛs In Yᴏᴜʀ Gʀᴏᴜᴘ[.](https://telegra.ph/file/26c430892d2ce0e407443.
+Hᴇʟᴘғᴜʟ Cᴏᴍᴍᴀɴᴅs:
 
-- /start: It will start me by showing you some options! You've probably used this, as you are here now. Hehe
-- /donate: To show some pity to my Dev... Shhhh! Just don't tell him that I ever said this.
+- /start: Iᴛ ᴡɪʟʟ sᴛᴀʀᴛ ᴍᴇ ʙʏ sʜᴏᴡɪɴɢ ʏᴏᴜ sᴏᴍᴇ ᴏᴘᴛɪᴏɴs! ʏᴏᴜ'ᴠᴇ ᴘʀᴏʙᴀʙʟʏ ᴜsᴇᴅ ᴛʜɪs, ᴀs ʏᴏᴜ ᴀʀᴇ ʜᴇʀᴇ ɴᴏᴡ. ʜᴇʜᴇ
 
-All commands can be used with the following: / or !
-List of all the Modules:
+ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ: / or !
+ʟɪsᴛ ᴏғ ᴀʟʟ ᴛʜᴇ ᴍᴏᴅᴜʟᴇs:
 """.format(
     dispatcher.bot.first_name, "" if not ALLOW_EXCL else "📝All commands can either be used with / or !.")
 buttons = [
     [
-        InlineKeyboardButton(text="『 ➕ Add Me to your Group! Onegaii! 』",url="https://telegram.dog/Destiny_x_Bot?startgroup=true")
+        InlineKeyboardButton(text=" Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ! ",url="https://telegram.dog/RaidenshogunXbot?startgroup=true")
     ],
     [
-        InlineKeyboardButton(text="『 🙇 Help 』", callback_data="help_back"),
-        InlineKeyboardButton(text="『 ❔ Otaku Talks 』", url="https://t.me/tas_support")
+        InlineKeyboardButton(text="Hᴇʟᴘ", callback_data="help_back"),
+        InlineKeyboardButton(text="CʜɪᴛCʜᴀᴛ", url="")
     ],
     [
-        InlineKeyboardButton(text="『 🚑 Support 』",url="https://telegram.dog/unmei_support"),
-        InlineKeyboardButton(text="『 📢 Updates 』",url="https://t.me/unmei_updates")
+        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ",url="https://telegram.dog/Akatsukibots_support"),
+        InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs",url="https://t.me/shogun_updates")
     ]
 ]
 
 grp_buttons = [
     [
-        InlineKeyboardButton(text="『 🚑 Support 』", url="https://telegram.dog/unmei_support"),
-        InlineKeyboardButton(text="『 🙇 Help 』", url="http://t.me/Destiny_x_Bot?start=help")
+        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://telegram.dog/Akatsukibots_support"),
+        InlineKeyboardButton(text="Hᴇʟᴘ", url="http://t.me/RaidenshogunXbot?start=help")
     ],
     [
-        InlineKeyboardButton(text="『 🎧 Add Music Bot here 』", url="https://telegram.dog/DestinyMusic_bot?startgroup=true")
+        InlineKeyboardButton(text="Aᴅᴅ Mᴜsɪᴄ Bᴏᴛ Hᴇʀᴇ", url="https://telegram.dog/RaidenXmusicbot?startgroup=true")
     ]
 ]
 
-GROUP_START_IMG = "https://telegra.ph/file/2d9b9613c4c7f8310c6d1.mp4"
-DESTINY_IMG = "https://telegra.ph/file/a4f96c30605ece22664ea.jpg"
+GROUP_START_IMG = "https://telegra.ph/file/db51425b3a6a18853d23a.mp4"
+DESTINY_IMG = "https://telegra.ph/file/30dd2546374c67f800533.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-You can support the project by contacting [Shoto](t.me/yameteee_yamete_kudasai)
+You can support the project by contacting [Obito](t.me/Brokenhero_08)
 Supporting isn't always financial!
 Those who cannot provide monetary support are welcome to help us develop the bot at our
-[Support Group](t.me/unmei_support)."""
+[Support Group](t.me/Akatsukibots_support)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -416,7 +415,7 @@ def unmei_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="unmei_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/DarkSoulxUltra/DestinyBot"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="unmei_back"),
@@ -476,8 +475,8 @@ def unmei_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/unmei_support"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/unmei_updates"),
+                    InlineKeyboardButton(text="Support", url="t.me/Akatsukibots_support"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/shogun_updates"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="unmei_"),
@@ -496,11 +495,11 @@ def unmei_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
 		 [
-                    InlineKeyboardButton(text="Shoto", url="https://github.com/DarkSoulxUltra"),
+                    InlineKeyboardButton(text="Obito", url="https://github.com/MYSTERIOUSPAIN"),
                  ],
                  [
-                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
-                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="sena-ex", url=""),
+                    InlineKeyboardButton(text="TheHamkerCat", url="),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="unmei_"),
@@ -772,7 +771,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 866830519:
+        if OWNER_ID != 1258798381:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
@@ -821,7 +820,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hey there Symphonicas,\nI['](https://telegra.ph/file/6931b8ee3a04aef8af314.mp4)m awake again.",
+                "👋 Hᴇʏ Mᴀsᴛᴇʀ ,\nI['](https://telegra.ph/file/fd378439151dff4d65417.jpg)M Aᴡᴀᴋᴇ Aɢᴀɪɴ.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
