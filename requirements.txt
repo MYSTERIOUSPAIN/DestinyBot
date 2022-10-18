@@ -1,5 +1,5 @@
 future
-emoji😙
+emoji 😙
 lxml
 wget
 coffeehouse
